@@ -7,11 +7,7 @@ class ThemeToggle extends Component {
   render() {
     const { toggleTheme } = this.context;
 
-    return (
-      <button onClick={toggleTheme} style={{ boxShadow: "5px 5px lightGray" }}>
-        Toggle Theme
-      </button>
-    );
+    return <button onClick={toggleTheme}>Toggle Theme</button>;
   }
 }
 
