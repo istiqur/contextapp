@@ -7,7 +7,11 @@ class ThemeToggle extends Component {
   render() {
     const { toggleTheme } = this.context;
 
-    return <button onClick={toggleTheme}>Toggle Theme</button>;
+    return (
+      <button onClick={toggleTheme} style={{ fontFamily: "cursive" }}>
+        Toggle Theme
+      </button>
+    );
   }
 }
 
